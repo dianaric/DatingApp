@@ -6,7 +6,7 @@ using Microsoft.IdentityModel.Tokens;
 
 namespace API;
 
-public class TokenSevice(IConfiguration config) : ITokenService
+public class TokenService(IConfiguration config) : ITokenService
 {
     public string CreateToken(AppUser user)
     {
